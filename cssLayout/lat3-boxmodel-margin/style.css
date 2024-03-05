@@ -1,0 +1,32 @@
+/* div {
+  display: inline-block;
+} */
+
+.satu {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+  /* margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 150px;
+  margin-right: 30px;
+  margin-bottom: 30px; */
+  margin: 50px auto; /* atas bawah | kanan kiri */
+}
+
+.dua {
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+  /* margin-left: 20px; 
+  margin-top: -150px; */
+  margin: 30px 50px 40px; /* atas | kiri kanan | bawah */
+}
+
+.tiga {
+  width: 50px;
+  height: 50px;
+  background-color: silver;
+  margin: 10px 20px 30px 40px; /* atas | kanan | bawah | kiri . Nb = searah jarum jam */
+
+}
