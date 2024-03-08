@@ -69,6 +69,7 @@ body {
 .header .judul {
   font-size: 40px;
   font-weight: bold;
+  text-align: center;
 }
 
 .header ul li {
@@ -119,6 +120,7 @@ body {
 .content p {
   margin-bottom: 20px;
   font-size: 15px;
+  text-align: justify;
 }
 
 .footer {
@@ -131,3 +133,19 @@ color: #eaeaea;
 text-align: center;
 font-size: 13px;
 }
+
+.container {
+  overflow: hidden;
+}
+
+.kanan {
+  float: left; /* Menempatkan gambar di sebelah kiri */
+  margin-right: 20px; /* Memberi jarak antara gambar dan teks */
+  width: 50%;
+}
+
+.kiri {
+  /* Kosong, jika ingin styling tambahan bisa ditambahkan di sini */
+}
+
+
