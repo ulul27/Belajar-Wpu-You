@@ -68,7 +68,7 @@ body {
 
 .container {
   width: 960px;
-  margin: 54px auto;
+  margin: 80px auto;
   background-color: white;
   position: relative;
 }
@@ -81,8 +81,8 @@ body {
   display: inline-block;
   text-indent: -9999px;
   position: absolute;
-  top: -30px;
-  right: -30px;
+  top: -22px;
+  right: -25px;
 }
 
 .header {
@@ -186,9 +186,9 @@ text-align: center;
 font-size: 13px;
 }
 
-.container {
+/* .container {
   overflow: hidden;
-}
+} */
 
 .clear {
   clear: both;
