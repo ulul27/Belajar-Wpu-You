@@ -45,7 +45,8 @@ order: 1;
   margin: 50px auto;
 }
 
-.lanyanan{
+.layanan{
+  width: 30%;
   padding: 20px;
   box-sizing: border-box;
   margin-bottom: 20px;
@@ -145,7 +146,7 @@ background-color: aquamarine;
     justify-content: space-between;
   }
 
-  .lanyanan {
+  .layanan {
     width: 30%;
   }
 
