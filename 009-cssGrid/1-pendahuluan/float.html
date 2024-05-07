@@ -11,7 +11,7 @@
       margin: 0;
       padding: 0;
       font-size: 20px;
-      font-family: arial;
+      font-family: Arial, Helvetica, sans-serif;
       color: white;
       text-transform: uppercase;
       text-align: center;
@@ -20,40 +20,33 @@
     .container {
       width: 600px;
       margin: 50px auto;
-      border: 5px solid black;
+      border: 5px solid #333;
       box-sizing: border-box;
       padding: 5px;
     }
 
-    .content .kiri {
-      box-sizing: border-box;
-      float: left;
-      padding: 10px;
-    }
-
-    .content .kanan {
-      float: right;
-    }
-
     header {
-      background-color: violet;
-      padding: 50px 0;
+      background-color: magenta;
+      padding: 30px;
     }
 
-    .kiri aside {
-      background-color: brown;
-    }
-
-    .kiri nav {
+    .sidebar aside {
       background-color: tomato;
+      padding: 70px;
     }
 
-    .kanan main {
-      background-color: rgb(203, 203, 141);
+    .sidebar nav {
+      background-color: turquoise;
+      padding: 70px;
+    }
+
+    main {
+      background-color: yellowgreen;
+      padding: 140px;
     }
 
     footer {
-      background-color: rgb(143, 139, 139);
+      background-color: grey;
       padding: 10px;
     }
   </style>
@@ -61,20 +54,25 @@
 
 <body>
   <div class="container">
+
     <header>header</header>
 
     <div class="content">
-      <div class="kiri">
+
+      <div class="sidebar">
+
         <aside>aside</aside>
+
         <nav>nav</nav>
+
       </div>
 
-      <div class="kanan">
-        <main>main</main>
-      </div>
+      <main>main</main>
+
     </div>
 
     <footer>footer</footer>
+
   </div>
 </body>
 
