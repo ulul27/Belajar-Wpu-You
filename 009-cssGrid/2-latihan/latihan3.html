@@ -4,14 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS Grid | Coloums and Rows</title>
+  <title>CSS Grid | Ukuran Fr</title>
   <style>
     .container {
-      width: 600px;
+      width: 80%;
       margin: 50px auto;
       display: grid;
-      grid-template-columns: 25% auto 50px;
-      grid-template-rows: 50px 100px auto;
+      grid-template-columns: repeat(5fr);
     }
 
     .item {
